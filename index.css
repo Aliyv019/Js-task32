@@ -1,0 +1,25 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 25px;
+    height: 25px;
+    margin: 2px;
+    background: gray;
+}
+
+main{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+}
+section{
+    display: flex;
+    flex-wrap: wrap;
+    width: 580px;
+}
